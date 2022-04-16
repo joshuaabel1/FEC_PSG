@@ -15,6 +15,7 @@ while a < 10:
 
     print("¡Hola, mundo!")
 
+    a = a + 1
 
 
 ## Bucle for :
