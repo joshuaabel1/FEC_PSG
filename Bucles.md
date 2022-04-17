@@ -31,3 +31,9 @@ for lenguaje in lenguajes:
 
     print(lenguaje)
 ```
+``` bash
+Python
+C
+C++
+Java
+```
