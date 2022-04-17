@@ -10,13 +10,18 @@ Python incluye únicamente dos tipos de bucle: while y for .</pre>
 </pre>
 ``` python
 a = 1
-
-while a < 10:
-
+while a < 5:
     print("¡Hola, mundo!")
-
     a = a + 1
 ```
+``` bash
+¡Hola, mundo!
+¡Hola, mundo!
+¡Hola, mundo!
+¡Hola, mundo!
+¡Hola, mundo!
+```
+
 
 ## Bucle for :
 
@@ -26,9 +31,7 @@ while a < 10:
 ``` bash python 
 
 lenguajes = ["Python", "C", "C++", "Java"]
-
 for lenguaje in lenguajes:
-
     print(lenguaje)
 ```
 ``` bash

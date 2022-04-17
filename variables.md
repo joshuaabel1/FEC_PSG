@@ -10,19 +10,14 @@
     Eso es muy de ayuda pensar las variables como contenedores que 
     contienen data el cual puede ser cambiado después a través de 
     técnicas de programación.
-`   saludo = "Hola Mundo" # cadenas de caracteres `
 
-`  print(saludo) `
-
- ```bash python 
-
- hola = "hola mundo"
- 
- print(hola)
-
-"hola mundo"
-
+``` python 
+saludo = "Hola Mundo" # cadenas de caracteres 
+print(saludo) 
  ```
+ ``` bash
+hola mundo
+```
 
 
 
@@ -43,15 +38,12 @@
 a, b, c = 5, 3.2, "Hola" 
 
 print(a) 
-
-5 
-
 print(b) 
-
-3.2
-
 print(c)
-
+```
+``` bash
+5 
+3.2
 'Hola'
 ```
 ## Reglas y convención de nombres :
@@ -78,7 +70,8 @@ print(c)
 
     No tenemos que declarar explícitamente las variables antes de usarlas, por lo tanto, para diferenciar entre una variable local y una global, necesitamos especificar que la variable a la que estamos accediendo es la variable global o no. Podemos especificar una variable como global en Python usando la palabra clave
 
-` global saludo `
-
+ ``` python
+global saludo 
+ ```
     
-    ahora esta misma variable, podra usar para todo el bloque de codigo .
+    ahora esta misma variable, podra usarse para todo el bloque de codigo .

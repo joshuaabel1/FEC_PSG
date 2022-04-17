@@ -9,11 +9,11 @@ Tambien podemos formatear una string
 cadena1 = "Hola" 
 cadena2 = "mundo" 
 nombre = "Juan" 
-
-print(cadena1 , cadena2) 
-Hola mundo 
-
+print(cadena1 , cadena2)
 print(cadena1 + cadena2) 
+```
+``` bash
+Hola mundo 
 Holamundo 
 ```
 ## Formatear string :
@@ -23,6 +23,8 @@ Holamundo
 </pre>
 ``` python
 print(f"{nombre} dice {cadena1} {cadena2}") 
-"Juan dice Hola mundo"
+```
+``` terminal
+Juan dice Hola mundo
 
 ```

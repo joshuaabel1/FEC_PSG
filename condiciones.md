@@ -14,8 +14,10 @@ que si se cumple la condicion ejecutaremos el siguiente codigo .
 edad = 30
 
 if edad >= 18: 
-
     print("Eres un adulto.") 
+```
+``` bash
+Eres un adulto.
 ```
 
 <pre> Si la variable definida cumple con la condicion impuesta, ejecutaremos el siguiente codigo.
@@ -28,28 +30,19 @@ usamos la palabra reservada "else" .
 
 ``` python
 if edad >= 18:
-    
     print("Eres un adulto.")
-
-else:
     
+else:
     print("Aún no eres un adulto.")
 ```
 
 <pre> Por último, podemos especificar otras condiciones en caso que la primera no se cumpla vía elif. </pre>
 
-
 ``` python
-
 if edad >= 18 and edad < 65:
-
     print("Eres un adulto.")
 elif edad >= 65:
-
     print("Eres un adulto mayor.")
-
 else:
-
     print("Aún no eres un adulto.")
-
 ```

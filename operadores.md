@@ -6,34 +6,50 @@
 x = 7
 
 y = 2
-
-x + y  # Suma dos operandos .
-
+```
+``` python
+print(x + y)  # Suma dos operandos .
+```
+``` bash
 9
-x - y  # Resta al operando de la izquierda el valor del operando de la derecha. Utilizado sobre un único operando, le cambia el signo .
-
+```
+``` pytohn
+print(x - y)  # Resta al operando de la izquierda el valor del operando de la derecha. Utilizado sobre un único operando, le cambia el signo .
+```
+``` bash
 5
-
-x * y  # Producto/Multiplicación de dos operandos .
-
+```
+``` python
+print(x * y)  # Producto/Multiplicación de dos operandos .
+```
+``` bash
 14
-
-x / y  # Divide el operando de la izquierda por el de la derecha (el resultado siempre es un float) .
-
+```
+``` python
+print(x / y)  # Divide el operando de la izquierda por el de la derecha (el resultado siempre es un float) .
+```
+``` bash
 3.5
-
-x % y  # Operador módulo. Obtiene el resto de dividir el operando de la izquierda por el de la derecha .
-
+```
+``` python
+print(x % y)  # Operador módulo. Obtiene el resto de dividir el operando de la izquierda por el de la derecha .
+```
+``` bash
 1
-
-x // y  # Obtiene el cociente entero de dividir el operando de la izquierda por el de la derecha .
-
+```
+``` python
+print(x // y)  # Obtiene el cociente entero de dividir el operando de la izquierda por el de la derecha .
+```
+``` bash
 3
-
-x ** y  # Potencia. El resultado es el operando de la izquierda elevado a la potencia del operando de la derecha .
-
+```
+``` python
+print(x ** y)  # Potencia. El resultado es el operando de la izquierda elevado a la potencia del operando de la derecha .
+```
+``` bash
 49
 ```
+
 ## Operadores de comparación :
 
 <pre> Los operadores de comparación se utilizan, como su nombre indica, para comparar dos o más valores. El resultado de estos operadores siempre es True o False . 

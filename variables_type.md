@@ -6,9 +6,9 @@
  <pre> Las variables que almacenan texto se denominan strings (str). Tienen que estar entre comillas sencillas(‘) o dobles ("), o si el texto ocupa varias líneas, entre triples comillas dobles (""" """)) . </pre>
 ``` python
 cadena = "Esto es una string" 
-
 print(type(cadena)) 
-
+```
+```bash
 <class 'str'> 
 ```
 
@@ -16,12 +16,11 @@ print(type(cadena))
 
 <pre> Los números enteros son aquellos que no tienen decimales, tanto positivos como negativos (además del cero). En Python se pueden representar mediante el tipo int (de integer, entero) o el tipo long (largo). La única diferencia es que el tipo long permite almacenarnúmeros más grandes. Es aconsejable no utilizar el tipo long a menos que sea necesario, para no malgastar memoria.
 </pre>
-
 ``` python
 numero_entero = 3 
-
 print(type(numero_entero)) 
-
+```
+``` bash
 <class 'int'> 
 ```
 
@@ -30,9 +29,9 @@ print(type(numero_entero))
 <pre> Los números reales son los que tienen decimales. En Python se expresan mediante el tipo float. </pre>
 ``` python
 numero_real = 3.2 
-
 print(type(numero_entero)) 
-
+```
+``` bash
 <class 'float'> 
 ```
 
@@ -44,11 +43,9 @@ Se puede crear un número complejo fácilmente: asignando directamente la parte 
 </pre>
 ``` python
 numero_complejo = 8 + 5j 
-
 print(type(a)) 
-
+``` bash
 <class 'complex'> 
-
 ```
 
 ### List :
@@ -57,9 +54,9 @@ print(type(a))
 </pre>
 ``` python
 lista = [5, "numero", "clavos"] 
-
 print(type(lista)) 
-
+```
+```bash
 <class 'list'> 
 ```
 
@@ -70,11 +67,11 @@ print(type(lista))
 </pre>
 
 ``` python
-
 tupla = (5, "numero", "clavos") 
 
 print(type(lista)) 
-
+```
+``` bash
 <class 'tuple'> 
 ```
 
@@ -85,9 +82,9 @@ Para ver los valores del range(), es necesario convertirlo a lista mediante la f
 El tipo range con tres argumentos se escribe range(m, n, p) y crea una lista inmutable de enteros que empieza en m y acaba justo antes de superar o igualar a n, aumentando los valores de p en p. Si p es negativo, los valores van disminuyendo de p en p.</pre>
 ``` python
 rango = range() 
-
 print(type(range)) 
-
+```
+``` bash
 <class 'range'> 
 ```
 ### Dict :
@@ -99,9 +96,9 @@ A diferencias de las listas y de las tuplas los diccionarios no se rigen por la 
 
 ``` python
 diccionario = {"total": 55} 
-
 print(type(diccionario)) 
-
+```
+```bash
 <class 'dict'> 
 ```
 ### Set :
@@ -110,9 +107,9 @@ print(type(diccionario))
 Los conjuntos son ampliamente utilizados en lógica y matemática, y desde el lenguaje podemos sacar provecho de sus propiedades para crear código más eficiente y legible en menos tiempo.</pre>
 ``` python
 set = {1, 2, 3, 4} 
-
 print(type(set))
-
+```
+``` bash
 <class 'set'> 
 ```
 
@@ -124,12 +121,8 @@ print(type(set))
 
 ``` python
 afirmacion = True 
-
 print(type(afirmacion)) 
-
+```
+``` bash
 <class 'bool'> 
-
-
-x = frozenset({"apple", "banana", "cherry"})	frozenset	
-	
 ```
