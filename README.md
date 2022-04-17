@@ -1,4 +1,7 @@
 # FEC_PSG
+
+![banner](./assets/banner.png)
+
 Bienvenidos al grupo de estudio de python .
 
 ## Grupo de estudio con Python 🐍
