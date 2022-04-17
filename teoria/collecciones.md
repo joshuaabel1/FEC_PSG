@@ -21,10 +21,14 @@ lenguajes = ["Python", "Java", "C", "C++"]
 </pre>
 ``` python
 lenguajes = ("Python", "Java", "C", "C++")
-
 ```
 
 ## Diccionarios :
 
 <pre>Los diccionarios, a diferencia de las listas y las tuplas, son colecciones no ordenadas de objetos. Además, sus elementos tienen una particularidad: siempre conforman un par clave-valor. Es decir, cuando añadimos un valor a un diccionario, se le asigna una clave única con la que luego se podrá acceder a él (pues la posición ya no es un determinante).
-Para crear un diccionario, indicamos los pares clave-valor separados por comas y estos, a su vez, separados por dos puntos.</pre>
+Para crear un diccionario, indicamos los pares clave-valor separados por comas y estos, a su vez, separados por dos puntos.
+</pre>
+
+``` python
+d = {"Python": 1991, "C": 1972, "Java": 1996} 
+```

@@ -3,7 +3,7 @@
 
 <pre>Un programa o script de Python es un conjunto de instrucciones analizadas y ejecutadas por el intérprete de arriba hacia abajo y de izquierda a derecha. Cuando todas las instrucciones se han ejecutado, el programa termina. No obstante, contamos con herramientas para alterar el flujo natural del programa: hacer que se saltee una porción de código según se cumpla tal o cual condición, repetir un conjunto de instrucciones, etc.</pre>
 
-## Conciciones :
+## Condiciones :
 
 <pre> Las condiciones son las palabras reservadas con las cuales le decimos a 
 Python que deseamos que se muestre, la palabra "if" es con la que indicaremos
