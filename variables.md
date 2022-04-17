@@ -1,15 +1,14 @@
 
-
 ## Variables :
 
-    Es un nombre que se refiere a un objeto que reside en la memoria. 
+<pre> Es un nombre que se refiere a un objeto que reside en la memoria. 
     El objeto puede ser de alguno de los tipos vistos (número o cadena de texto), 
-    o alguno de los otros tipos existentes en Python.
+    o alguno de los otros tipos existentes en Python.</pre>
 
-    Cada variable debe tener un nombre único llamado identificador. 
+<pre> Cada variable debe tener un nombre único llamado identificador. 
     Eso es muy de ayuda pensar las variables como contenedores que 
     contienen data el cual puede ser cambiado después a través de 
-    técnicas de programación.
+    técnicas de programación. </pre>
 
 ``` python 
 saludo = "Hola Mundo" # cadenas de caracteres 
@@ -18,21 +17,16 @@ print(saludo)
  ``` bash
 hola mundo
 ```
-
-
-
 ## Alcance de las variables :
 
-    Las variables en Python son locales por defecto. Esto quiere decir que las variables definidas y utilizadas en el bloque de código de una función, sólo tienen existencia dentro de la misma, y no interfieren con otras variables del resto del código.
+<pre>Las variables en Python son locales por defecto. Esto quiere decir que las variables       definidas y utilizadas en el bloque de código de una función, sólo tienen existencia dentro de la misma, y no interfieren con otras variables del resto del código. </pre>
 
-    A su vez, las variables existentes fuera de una función, no son visibles dentro de la misma.
+<pre>A su vez, las variables existentes fuera de una función, no son visibles dentro de la misma.
+En caso de que sea conveniente o necesario, una variable local puede convertirse en una variable global declarándola explícitamente, como tal con la sentencia global.</pre>
 
-    En caso de que sea conveniente o necesario, una variable local puede convertirse en una variable global declarándola explícitamente, como tal con la sentencia global.
+## Asignar múltiples valores a a múltiples variables
 
-
-## asignar múltiples valores a a múltiples variables
-
-    A continuación, se creará múltiples variables (entero, coma flotante, cadenas de caracteres) asignando múltiples valores:
+<pre>A continuación, se creará múltiples variables (entero, coma flotante, cadenas de caracteres) asignando múltiples valores:</pre>
     
 ``` python
 a, b, c = 5, 3.2, "Hola" 
@@ -48,7 +42,7 @@ print(c)
 ```
 ## Reglas y convención de nombres :
 
-    Algunas reglas y convenciones de nombres para las variables y constantes:
+   <pre> Algunas reglas y convenciones de nombres para las variables y constantes: </pre>
 
    * Nunca use símbolos especiales como !, @, #, $, %, etc.
 
@@ -66,12 +60,12 @@ print(c)
 
    *  No pueden usarse como identificadores, las palabras reservadas .
 
-##   Sentencia global :
+## Sentencia global :
 
-    No tenemos que declarar explícitamente las variables antes de usarlas, por lo tanto, para diferenciar entre una variable local y una global, necesitamos especificar que la variable a la que estamos accediendo es la variable global o no. Podemos especificar una variable como global en Python usando la palabra clave
+<pre>No tenemos que declarar explícitamente las variables antes de usarlas, por lo tanto, para diferenciar entre una variable local y una global, necesitamos especificar que la variable a la que estamos accediendo es la variable global o no. Podemos especificar una variable como global en Python usando la palabra clave</pre>
 
  ``` python
 global saludo 
  ```
     
-    ahora esta misma variable, podra usarse para todo el bloque de codigo .
+<pre>ahora esta misma variable, podra usarse para todo el bloque de codigo .</pre>
