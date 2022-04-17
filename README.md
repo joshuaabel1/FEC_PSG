@@ -13,8 +13,9 @@ juntos .
 La idea principal es que podamos aprender entre todos este lindo lenguaje!
 
 La **metodología** que usamos es la siguiente:
-- 📢 Estaremos utilizando como medio de comunicación el canal del grupo de estudio en FrontendCafé (clic a la imagen!):
+- 📢 Estaremos utilizando como medio de comunicación el canal del grupo de estudio en FrontendCafé [FEC]:
 
+[FEC]: https://discord.gg/frontendcafe
 
 ## Guia basica 🐍
 
