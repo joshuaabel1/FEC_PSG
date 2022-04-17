@@ -10,11 +10,13 @@ Python que deseamos que se muestre, la palabra "if" es con la que indicaremos
 que si se cumple la condicion ejecutaremos el siguiente codigo .
 </pre>
 
+``` python
 edad = 30
 
 if edad >= 18: 
 
     print("Eres un adulto.") 
+```
 
 <pre> Si la variable definida cumple con la condicion impuesta, ejecutaremos el siguiente codigo.
 Como se ver dejamos dejamos unos espacios esto se llama indentacion es parte de las reglas de python .
@@ -24,6 +26,7 @@ Como se ver dejamos dejamos unos espacios esto se llama indentacion es parte de 
 usamos la palabra reservada "else" .
 </pre>
 
+``` python
 if edad >= 18:
     
     print("Eres un adulto.")
@@ -31,8 +34,12 @@ if edad >= 18:
 else:
     
     print("Aún no eres un adulto.")
+```
 
 <pre> Por último, podemos especificar otras condiciones en caso que la primera no se cumpla vía elif. </pre>
+
+
+``` python
 
 if edad >= 18 and edad < 65:
 
@@ -44,3 +51,5 @@ elif edad >= 65:
 else:
 
     print("Aún no eres un adulto.")
+
+```

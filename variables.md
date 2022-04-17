@@ -14,7 +14,16 @@
 
 `  print(saludo) `
 
-` "Hola Mundo" `
+ ```bash python 
+
+ hola = "hola mundo"
+ 
+ print(hola)
+
+"hola mundo"
+
+ ```
+
 
 
 ## Alcance de las variables :
@@ -29,20 +38,22 @@
 ## asignar múltiples valores a a múltiples variables
 
     A continuación, se creará múltiples variables (entero, coma flotante, cadenas de caracteres) asignando múltiples valores:
-`
-a, b, c = 5, 3.2, "Hola" `
+    
+``` python
+a, b, c = 5, 3.2, "Hola" 
 
-` print(a) `
+print(a) 
 
-` 5 `
-` print(b) `
+5 
 
-` 3.2 `
+print(b) 
 
-` print(c)`
+3.2
 
-` 'Hola'
-`
+print(c)
+
+'Hola'
+```
 ## Reglas y convención de nombres :
 
     Algunas reglas y convenciones de nombres para las variables y constantes:

@@ -2,38 +2,38 @@
 <pre> Estos son los operadores que permiten realizar diferentes operaciones aritméticas .
 </pre>
 
+``` python
+x = 7
 
-> x = 7
+y = 2
 
-> y = 2
-
-> x + y  # Suma dos operandos .
+x + y  # Suma dos operandos .
 
 9
-> x - y  # Resta al operando de la izquierda el valor del operando de la derecha. Utilizado sobre un único operando, le cambia el signo .
+x - y  # Resta al operando de la izquierda el valor del operando de la derecha. Utilizado sobre un único operando, le cambia el signo .
 
 5
 
-> x * y  # Producto/Multiplicación de dos operandos .
+x * y  # Producto/Multiplicación de dos operandos .
 
 14
 
-> x / y  # Divide el operando de la izquierda por el de la derecha (el resultado siempre es un float) .
+x / y  # Divide el operando de la izquierda por el de la derecha (el resultado siempre es un float) .
 
 3.5
 
-> x % y  # Operador módulo. Obtiene el resto de dividir el operando de la izquierda por el de la derecha .
+x % y  # Operador módulo. Obtiene el resto de dividir el operando de la izquierda por el de la derecha .
 
 1
 
-> x // y  # Obtiene el cociente entero de dividir el operando de la izquierda por el de la derecha .
+x // y  # Obtiene el cociente entero de dividir el operando de la izquierda por el de la derecha .
 
 3
 
-> x ** y  # Potencia. El resultado es el operando de la izquierda elevado a la potencia del operando de la derecha .
+x ** y  # Potencia. El resultado es el operando de la izquierda elevado a la potencia del operando de la derecha .
 
 49
-
+```
 ## Operadores de comparación :
 
 <pre> Los operadores de comparación se utilizan, como su nombre indica, para comparar dos o más valores. El resultado de estos operadores siempre es True o False . 
