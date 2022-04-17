@@ -3,7 +3,8 @@
     Python tiene cuatro tipos primitivos: enteros, flotantes, booleanos y cadenas o Strings. Los tipos de variables enteros en Python (int) se utilizan para representar datos numéricos, específicamente números enteros. Estos pueden ser tanto positivos como negativos.
 
 ### String :
- <pre> Las variables que almacenan texto se denominan strings (str). Tienen que estar entre comillas sencillas(‘) o dobles ("), o si el texto ocupa varias líneas, entre triples comillas dobles (""" """)) . </pre>
+ <pre> Las variables que almacenan texto se denominan strings (str). Tienen que estar entre comillas sencillas(‘) o dobles ("), o si el texto ocupa varias líneas, entre triples comillas dobles (""" """)) . 
+</pre>
 ``` python
 cadena = "Esto es una string" 
 print(type(cadena)) 
@@ -27,6 +28,7 @@ print(type(numero_entero))
 ### Float :
 
 <pre> Los números reales son los que tienen decimales. En Python se expresan mediante el tipo float. </pre>
+
 ``` python
 numero_real = 3.2 
 print(type(numero_entero)) 
@@ -44,6 +46,7 @@ Se puede crear un número complejo fácilmente: asignando directamente la parte 
 ``` python
 numero_complejo = 8 + 5j 
 print(type(a)) 
+```
 ``` bash
 <class 'complex'> 
 ```
@@ -68,7 +71,6 @@ print(type(lista))
 
 ``` python
 tupla = (5, "numero", "clavos") 
-
 print(type(lista)) 
 ```
 ``` bash
