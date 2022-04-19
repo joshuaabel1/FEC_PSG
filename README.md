@@ -20,7 +20,7 @@ La **metodología** que usamos es la siguiente:
 - 💪 Cada semana repasaremos teoría propuesta para las siguientes sesiones
 - 🏃‍♂️ Daremos ejercicios para reforzar los temas y crearemos un proyecto evolutivo a medida que avancemos las sesiones
 
-## Guia basica 🐍
+## Tabla de contenidos 🐍
 
 <div align="center">
 
