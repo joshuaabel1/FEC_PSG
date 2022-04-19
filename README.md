@@ -16,71 +16,34 @@ juntos .
 La idea principal es que podamos aprender entre todos este lindo lenguaje!
 
 La **metodología** que usamos es la siguiente:
-- 📢 Estaremos utilizando como medio de comunicación el canal del grupo de estudio en FrontendCafé [FEC]:
-
-[FEC]: https://discord.gg/frontendcafe
+- 📢 Estaremos utilizando como medio de comunicación el canal del grupo de estudio en  [FrontendCafé]:
+- 💪 Cada semana repasaremos teoría propuesta para las siguientes sesiones
+- 🏃‍♂️ Daremos ejercicios para reforzar los temas y crearemos un proyecto evolutivo a medida que avancemos las sesiones
 
 ## Guia basica 🐍
 
-En este mismo README les dejare un una guia y requisitos para 
-la primera reunion, deben tener una cuenta en Github para seguir
-los siguientes pasos .
+<div align="center">
 
-Primero crearemos un entorno virtual, 
-en el canal vamos a seguir estas instrucciones juntos .
+| Teoría | Ejercicios |
+|---|:---:|
+| Instalación | - |
+| [Entornos] | - |
+| [Variables] | - |
+| [Tipo de variables] | - |
+| [Concatenación] | - |
+| [Operadores] | - |
+| [Condiciones] | - |
+| [Bucles] | - |
+| [Colecciones] | - |
 
-Si no estas en la comunidad podes encontrarnos aqui [FEC] .
+</div>
 
-[FEC]: https://discord.gg/frontendcafe
-
-
-Antes de avanzar seguiremos estos pasos :
-
-En tu powershell ejecutas la siguiente linea .
-
-* Get-ExecutionPolicy
-
-Si la respuesta es restricted ejecutas lo siguiente .
-
-* Set-ExecutionPolicy unrestricted
-
-Una vez completo esto crearemos nuestro entorno virtual .
-
-
-Seleccionamos una carpeta ej: Python_group .
-
-Ahora veamos si tenemos python y que version .
-
-* python --version
-
-    esta seria la respues 
-    
-    >Python 3.9.9
-
-    si no lo tienes lo instalamos desde [Python]
-
-    [Python]: https://www.python.org/ftp/python/3.9.10/python-3.9.10-embed-amd64.zip
-
-Ahora creamos nuestro entorno .
-
-* Instalamos la libreria .
-    > pip install virtualenv
-
-* En este paso creamos nuestro entorno .
-    
-    > vitualenv env
-
-
-* Y lo activamos .
-    > env\Scripts\activate
-
-
-* Ahora ya tenemos nuestro entorno virtual se deberia ver asi 
-    
-    > (env) PS C:\Python_group>
-
-En este sitio vamos a clonar nuestro repositorio .
-
-* Clonamos este repo .
-
-    > git clone 
+[FrontendCafé]: https://discord.gg/frontendcafe
+[Entornos]: ./teoria/entornos.md
+[Variables]: ./teoria/variables.md
+[Tipo de variables]: ./teoria/variables_type.md
+[Concatenación]: ./teoria/concatenacion.md
+[Operadores]: ./teoria/operadores.md
+[Condiciones]: ./teoria/condiciones.md
+[Bucles]: ./teoria/bucles.md
+[Colecciones]: ./teoria/colecciones.md
