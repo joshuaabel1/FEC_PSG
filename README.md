@@ -6,10 +6,7 @@ Bienvenidos al grupo de estudio de python .
 
 ## Grupo de estudio con Python 🐍
 
-En este grupo de estudio con Python, vamos a introducirnos
-en la programacion desde lo mas basico del lenguaje hasta
-lo mas complejo. Veremos la teoria y practica para aprender
-juntos .
+En este grupo de estudio con Python, vamos a introducirnos en la programacion desde lo mas basico del lenguaje hasta lo mas complejo. Veremos la teoria y practica para aprender juntos .
 
 
 ## ¿Cómo nos organizamos? 👍
@@ -20,13 +17,19 @@ La **metodología** que usamos es la siguiente:
 - 💪 Cada semana repasaremos teoría propuesta para las siguientes sesiones
 - 🏃‍♂️ Daremos ejercicios para reforzar los temas y crearemos un proyecto evolutivo a medida que avancemos las sesiones
 
+## Material de referencia 📚
+En el grupo usaremos los siguientes recursos recomendados:
+
+- [Python - W3Schools](https://www.w3schools.com/python/default.asp)
+- [Programación con Python](https://aprendeconalf.es/docencia/python/manual/)
+
 ## Tabla de contenidos 🐍
 
 <div align="center">
 
 | Teoría | Ejercicios |
 |---|:---:|
-| Instalación | - |
+| [Instalación] | - |
 | [Entornos] | - |
 | [Variables] | - |
 | [Tipo de variables] | - |
@@ -39,6 +42,7 @@ La **metodología** que usamos es la siguiente:
 </div>
 
 [FrontendCafé]: https://discord.gg/frontendcafe
+[Instalación]: ./teoria/instalacion.md
 [Entornos]: ./teoria/entornos.md
 [Variables]: ./teoria/variables.md
 [Tipo de variables]: ./teoria/variables_type.md
