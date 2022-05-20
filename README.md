@@ -23,23 +23,25 @@ En el grupo usaremos los siguientes recursos recomendados:
 - [Python - W3Schools](https://www.w3schools.com/python/default.asp)
 - [Programación con Python](https://aprendeconalf.es/docencia/python/manual/)
 
-## Tabla de contenidos 🐍
+## Contenidos y ejercicios 🐍
 
-<div align="center">
+> Dejaremos los resumenes de cada sesión en Notion: [Clic aquí!](https://javodotpy.notion.site/javodotpy/PSG-Sessions-Resume-736b22175eea4043b3e35eb1bb2b39a6)
 
-| Teoría | Ejercicios |
-|---|:---:|
-| [Instalación] | - |
-| [Entornos] | - |
-| [Variables] | - |
-| [Tipo de variables] | - |
-| [Concatenación] | - |
-| [Operadores] | - |
-| [Condiciones] | - |
-| [Bucles] | - |
-| [Colecciones] | - |
+> Los ejercicios los encontrarán en [su carpeta de este repo](./ejercicios)
 
-</div>
+| Teoría |
+|---|
+| [Instalación] |
+| [Entornos] |
+| [Variables] |
+| [Tipo de variables] |
+| [Concatenación] |
+| [Operadores] |
+| [Condiciones] |
+| [Bucles] |
+| [Colecciones] |
+
+
 
 [FrontendCafé]: https://discord.gg/frontendcafe
 [Instalación]: ./teoria/instalacion.md
