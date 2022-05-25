@@ -65,3 +65,31 @@ En resumen, la estrategia consta de:
 
 - Por cada encuesta realizada, a demás de hacer todo lo del ejercicio 4, también guardaremos en una lista el nombre de cada encuestado. El nombre de la lista puede llamarse `list_names`.
 - Necesitamos saber cuantos encuestados hay en total e imprimirlo en consola.
+
+
+## Ejercicio 6
+
+Se ingresa por consola día y mes. Crear un script que pueda decirnos si es navidad! 🎅🎄.
+
+Para esto, van a tener que usar una librería llamada datetime. Pueden usar lo siguiente para obtener día y mes actual:
+
+```py
+from datetime import datetime as dt
+
+actual = dt.now()
+actual_day = actual.day # Día
+actual_month = actual.month # Mes
+```
+
+## Ejercicio 7
+
+En un país, por la crisis económica, se optó por el racionamiento de alimentos. Los criterios son los siguientes:
+
+- Los días lunes solo se pueden presentar a comprar los DNI terminados en 0 y 1
+- Los días martes solo se pueden presentar a comprar los DNI terminados en 2 y 3
+- Los días miércoles solo se pueden presentar a comprar los DNI terminados en 4 y 5
+- Los días jueves solo se pueden presentar a comprar los DNI terminados en 6 y 7
+- Los días viernes solo se pueden presentar a comprar los DNI terminados en 8 y 9
+- Los fines de semana, el acceso es ilimitado
+
+Imprimir si la persona con el DNI ingresado en el sistema puede ingresar o no al establecimiento. Pueden usar el script del ejercicio 6, queda por averiguar como conseguir el nombre del día con la librería datetime!
