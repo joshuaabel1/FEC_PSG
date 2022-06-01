@@ -93,3 +93,65 @@ En un país, por la crisis económica, se optó por el racionamiento de alimento
 - Los fines de semana, el acceso es ilimitado
 
 Imprimir si la persona con el DNI ingresado en el sistema puede ingresar o no al establecimiento. Pueden usar el script del ejercicio 6, queda por averiguar como conseguir el nombre del día con la librería datetime!
+
+
+## Ejercicio 8
+
+A partir de una lista desordenada de números enteros, se pide (USAR BUCLE FOR):
+
+- Separar en dos listas: una para números pares y otra para números impares
+- En la lista de pares, ordenar de menor a mayor
+- En la lista de impares, ordenar de mayor a menor
+
+Ejemplo:
+
+```py
+numbers = [6, 2, 1, 4, 9, 33, 11, 24]
+
+# Ouput
+# Pares: [2, 4, 6, 24]
+# Impares: [33, 11, 9, 1]
+```
+
+Usar las siguientes listas:
+```py
+[32, 21, 26, 80, 76, 46, 75, 58, 38, 51, 47]
+[62, 60, 44, 22, 57, 21, 13, 39, 47, 74, 87, 69, 4, 1, 83, 42, 12, 12, 64]
+[34, 65, 61, 81, 49, 94, 96, 54, 74, 42, 82, 0, 98, 59, 62, 94, 83, 60, 54, 10, 36, 81, 92, 3, 76]
+[]
+```
+
+## Ejercicio 9
+
+Dejamos de ser programadores y ahora seremos repositores en un supermercado. Nos pasan una lista de productos que faltan en las góndolas y nosotros como buenos repositores, iremos a llenar las góndolas.
+
+```py
+productos_faltantes = [
+    {
+        'name': 'Arroz',
+        'checked': False
+    },
+    {
+        'name': 'Cereal',
+        'checked': False
+    },
+    {
+        'name': 'Bondiola',
+        'checked': False
+    },
+    {
+        'name': 'Café',
+        'checked': False
+    },
+    {
+        'name': 'Yerba',
+        'checked': False
+    }
+]
+```
+
+Lamentablemente, no tenemos todos los productos de la lista en el almacen. Durante la mañana solamente podemos completar parte de las góndolas y luego por la tarde traerán los productos que faltan para llenar las góndolas.
+
+Con esto dicho, volveremos a nuestro rol de programadores y vamos a crear un script (usando while y for) para cambiar el estado (`checked`) de cada producto en nuesta lista de diccionarios.
+
+Tip: usar el método input para indicar al script cuando llenamos la góndola de un producto y usar break para cortar el while (o sea, siempre va a iterar hasta que todos los productos estén con `checked = True`)
