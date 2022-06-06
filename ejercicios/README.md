@@ -27,7 +27,7 @@ Cuidado! Esta función input por defecto guarda todo en formato string. Para la 
 
 ## Ejercicio 3
 
-En el mismo archivo main.py del ejercicio 3, vamos a guardar en una lista los datos de dos personas. Las variables que declaramos antes vamos a guardarlas en un diccionario. El flujo de como encarara el ejercicio (por ahora), sería de la siguiente forma:
+En el mismo archivo main.py del ejercicio 2, vamos a guardar en una lista los datos de dos personas. Las variables que declaramos antes vamos a guardarlas en un diccionario. El flujo de como encarara el ejercicio (por ahora), sería de la siguiente forma:
 
 - Pido datos y guardo en diccionario usuario1
 - Pido otra vez datos y guardo en diccionario usuario2
