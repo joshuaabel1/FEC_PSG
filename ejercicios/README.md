@@ -160,7 +160,7 @@ Tip: usar el método input para indicar al script cuando llenamos la góndola de
 ## Ejercicio 10
 
 Teniendo el ejercicio 3 hecho, queremos adaptarlo para poder utilizar funciones. La idea es ingresar N cantidad de usuarios en una lista. Para esto, se pide primero ingresar un valor N, la cual representará las veces que se ingresa un usuario nuevo.
-Al final de la iteración, se deberán imprimir todos los nombres (`first_name`) del usuario.
+Al final de la iteración, se deberán imprimir el nombre (`first_name`) de cada usuario.
 
 
 ## Ejercicio 11
