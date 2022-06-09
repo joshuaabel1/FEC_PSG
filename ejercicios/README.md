@@ -155,3 +155,16 @@ Lamentablemente, no tenemos todos los productos de la lista en el almacen. Duran
 Con esto dicho, volveremos a nuestro rol de programadores y vamos a crear un script (usando while y for) para cambiar el estado (`checked`) de cada producto en nuesta lista de diccionarios.
 
 Tip: usar el método input para indicar al script cuando llenamos la góndola de un producto y usar break para cortar el while (o sea, siempre va a iterar hasta que todos los productos estén con `checked = True`)
+
+
+## Ejercicio 10
+
+Teniendo el ejercicio 3 hecho, queremos adaptarlo para poder utilizar funciones. La idea es ingresar N cantidad de usuarios en una lista. Para esto, se pide primero ingresar un valor N, la cual representará las veces que se ingresa un usuario nuevo.
+Al final de la iteración, se deberán imprimir todos los nombres (`first_name`) del usuario.
+
+
+## Ejercicio 11
+
+Crear una función que convierta un número ingresado (entero y positivo) al sistema binario ([acá tienen una explicación de como hacerlo matemáticamente](https://www.cuemath.com/numbers/decimal-to-binary/)). Pueden devolver el resultado como string para facilitar el resultado de la conversión.
+
+Plus: Hacer lo mismo pero para sistema octal y hexadecimal!
