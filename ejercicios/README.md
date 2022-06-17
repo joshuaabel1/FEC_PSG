@@ -168,3 +168,25 @@ Al final de la iteración, se deberán imprimir el nombre (`first_name`) de cada
 Crear una función que convierta un número ingresado (entero y positivo) al sistema binario ([acá tienen una explicación de como hacerlo matemáticamente](https://www.cuemath.com/numbers/decimal-to-binary/)). Pueden devolver el resultado como string para facilitar el resultado de la conversión.
 
 Plus: Hacer lo mismo pero para sistema octal y hexadecimal!
+
+
+## Ejercicio 12
+
+Imaginar un objeto que pueda ser reutilizado para aplicar herencia. Tengamos en cuenta que se trata de pensar un objeto al que podamos aplicarle herencia con nuevas propiedades o modificadas. Ejemplo: Envase para bebidas (`EnvaseBase`). Coca-Cola, Botella térmica, termo Stanley (heredan de `EnvaseBase`)
+
+
+## Ejercicio adicional 1:
+
+Usaron la aplicación Uber? Tiene una gran infraestructura muy bien pensada para llevar a cabo todas sus funcionalidades pensadas y por pensar. Es escalable.
+
+¿Por qué es escalable? Uno de sus motivos es porque vieron la idea como objetos 👀
+
+Vamos a repensar Uber para crear nuestra (futura) aplicación. Pero a alto nivel, sin código! Usemos el siguiente [sitio]([INGRESAR URL](https://excalidraw.com/)) para realizar algunos dibujos para armar el primer borrador de nuestros objetos.
+
+La idea es la siguiente:
+
+- Pensar que/quienes pueden ser considerados un objeto
+- Crear objetos bases que van a tener atributos/propiedades y métodos
+- A partir de los objetos bases, crear las distintas entidades existentes en Uber
+
+Ayudín: Persona, Móvil y Mapa pueden ser objetos bases
