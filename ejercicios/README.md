@@ -181,7 +181,7 @@ Usaron la aplicación Uber? Tiene una gran infraestructura muy bien pensada para
 
 ¿Por qué es escalable? Uno de sus motivos es porque vieron la idea como objetos 👀
 
-Vamos a repensar Uber para crear nuestra (futura) aplicación. Pero a alto nivel, sin código! Usemos el siguiente [sitio]([INGRESAR URL](https://excalidraw.com/)) para realizar algunos dibujos para armar el primer borrador de nuestros objetos.
+Vamos a repensar Uber para crear nuestra (futura) aplicación. Pero a alto nivel, sin código! Usemos el siguiente [sitio](https://excalidraw.com/) para realizar algunos dibujos para armar el primer borrador de nuestros objetos.
 
 La idea es la siguiente:
 
