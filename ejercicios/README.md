@@ -175,7 +175,7 @@ Plus: Hacer lo mismo pero para sistema octal y hexadecimal!
 Imaginar un objeto que pueda ser reutilizado para aplicar herencia. Tengamos en cuenta que se trata de pensar un objeto al que podamos aplicarle herencia con nuevas propiedades o modificadas. Ejemplo: Envase para bebidas (`EnvaseBase`). Coca-Cola, Botella térmica, termo Stanley (heredan de `EnvaseBase`)
 
 
-## Ejercicio adicional 1:
+## Ejercicio adicional 1
 
 Usaron la aplicación Uber? Tiene una gran infraestructura muy bien pensada para llevar a cabo todas sus funcionalidades pensadas y por pensar. Es escalable.
 
@@ -190,3 +190,33 @@ La idea es la siguiente:
 - A partir de los objetos bases, crear las distintas entidades existentes en Uber
 
 Ayudín: Persona, Móvil y Mapa pueden ser objetos bases
+
+
+## Ejercicio 13
+
+Llevar a cabo en código lo diagramado en el ejercicio 12 (si tienen dudas acá, consulten en el canal del grupo sin problemas!)
+
+
+## Ejercicio adicional 2
+
+Llevar a cabo en código lo diagramado en el ejercicio adicional 1 (si tienen dudas acá, consulten en el canal del grupo sin problemas!)
+
+
+## Ejercicio 14
+
+Vamos a usar el framework de Flask. Este ejercicio es más para investigar, ya que dependerá de sus sistemas operativos el como correr una app con Flask. Vamos a crear dos rutas:
+
+- La ruta `/` para mostrar un saludo
+- La ruta `/random` para mostrar una imagen random (usen la API de Unsplash: [https://source.unsplash.com/random](https://source.unsplash.com/random))
+
+Para lo segundo, van a necesitar un template HTML. Pueden usar de ejemplo el ejercicio visto en la sesión: [GitHub Profile Searcher](https://github.com/JaviCeRodriguez/github_profiles).
+Si tienen dudas de como encararlo, consulten sin problemas! Pero traten de ver la documentación primero, ya que es lo primero que deben hacer al usar una librería (o Stackoverflow si no es suficiente para cierto casos)
+
+
+## Ejercicio 15
+
+Vamos a crear unas funciones para practicar modularización. Creemos un archivo main.py como archivo principal y nuestras funciones estarán separadas por archivos dentro de la carpeta `modules`. Se piden las siguientes funciones:
+
+- Dados el número de horas trabajadas y el coste por hora, mostrar en pantalla el pago correspondiente que debe realizar el empleador.
+- Con el valor de la función anterior, pasarlo a la segunda función junto con el valor mínimo que necesita el empleado para vivir. Restar ambos valores e indicar en la pantalla si el valor supera el 25% del valor mínimo.
+
