@@ -53,6 +53,102 @@ Ejemplo del resultado:
 
 > El resultado es 3
 
+# Ejercicio 7
+Dado el siguiente listado de libros
+
+```py
+libros = [
+    'Don Quijote de la Mancha',
+    'Historia de dos ciudades',
+    'El Señor de los Anillos',
+    'El principito',
+    'El hobbit',
+    'Sueño en el pabellón rojo',
+    'Las aventuras de Alicia en el país de las maravillas',
+    'Triple representatividad,',
+    'Y no quedó ninguno (Diez negritos)',
+    'El león, la bruja y el armario'
+]
+```
+Desarrolla un programa el cual cumpla con los siguiente requerimientos.
+
+- El programa listará en consola todos los elementos de la lista.
+- El usuario podrá seleccionar (mediante un número) un libro en especifico.
+- En caso el usuario ingrese un número mayor a la cantidad de libros en el listado, el programa deberá mostrar en consola el siguiente mensaje:
+- Indice no disponible
+
+Ejemplo:
+
+```
+1º- Don Quijote de la Mancha
+2º- Historia de dos ciudades
+3º- El Señor de los Anillos
+4º- El principito
+5º- El hobbit
+6º- Sueño en el pabellón rojo
+7º- Las aventuras de Alicia en el país de las maravillas
+8º- Triple representatividad,
+9º- Y no quedó ninguno (Diez negritos)
+10º- El león, la bruja y el armario
+
+Selecciona un libro: 10
+El león, la bruja y el armario
+```
+Ayuda: En Python más vale pedir perdón que pedir permiso.
+
+Deseado:
+
+- Sería estupendo que la enumeración que el usuario visualizará en consola comenzará desde 1 y no desde 0.
+- Si tienes tiempo y así lo deseas, sería un muy buena idea validar que el usuario solo pueda introducir números.
+
+# Ejercicio 8
+Dada la siguiente clase
+
+```py
+class Animal():
+
+    def comer(self):
+        print('El animal come.')
+
+    def dormir(self):
+        print('El animal duerme.')
+```
+
+Define dos nuevas clases (Perro, Gato) que hereden de la clase Animal. Las clases hijas debe ser capaces de sobre escribir los métodos de la clase padre (Animal)
+
+- La clase Perro deberá imprimir en consola: el Perro Come y el Perro Duerme para los métodos comer y dormir respectivamente.
+- La clase Gato deberá imprimir en consola: el Gato Come y el Gato Duerme para los métodos comer y dormir respectivamente.
+
+Ejemplo:
+
+```
+>>> gato.comer()
+El Gato come.
+
+>>> perro.dormir()
+El Perro duerme.
+```
+
+### Ejercicio 9
+Dado un diccionario de usuarios con sus respectivas edades. Ejemplo:
+
+```py
+usuarios = [
+    {'username':  'Eduardo', 'age': 27 },
+    {'username':  'Fernando', 'age': 25 },
+    {'username':  'Loki', 'age': 30 },
+    {'username':  'Duke', 'age': 19}
+]
+```
+
+Desarrolla un programa en Python que muestre en consola el nombre de todos los usuarios con una edad mayor a 25.
+
+Salida: 
+
+```
+Eduardo
+Loki
+```
 
 ## 🤨 Intermedio
 
@@ -66,6 +162,59 @@ En una determinada empresa, sus empleados son evaluados al final de cada año. L
 | Meritorio    |   0.6 o más  |
 
 Escribir un programa que lea la puntuación del usuario e indique su nivel de rendimiento, así como la cantidad de dinero que recibirá el usuario
+
+### Ejercicio 2
+A partir del siguiente listado de usuarios. Desarrolla un programa el cual nos permita crear un archivo .json.
+
+El programa debe cumplir con los siguiente requerimientos.
+
+- El programa debe ser capaz de generar el archivo users.json.
+- El archivo debe poseer los 200 usuarios del listado en un formato json.
+- Cada objeto json debe encontrarse identado por 4 espacios.
+
+Ejemplo:
+```json
+[
+    {
+        "age": "73",
+        "country": "United States",
+        "email": "jerome.thomas@example.com",
+        "gender": "male",
+        "id": "0",
+        "name": "Mr Jerome Thomas"
+    },
+    {
+        "age": "70",
+        "country": "United Kingdom",
+        "email": "gary.berry@example.com",
+        "gender": "male",
+        "id": "1",
+        "name": "Mr Gary Berry"
+    },
+...
+]
+```
+
+Ayuda: vas a tener que usar la librería `json`! Es posible sin, pero va a ser más complicado.
+
+### Ejercicio 3
+Desarrolla una función que nos permita conocer todas las llaves duplicadas dentro de 2 diccionarios.
+
+La función deberá cumplir con los siguientes aspectos.
+
+- La función deberá tener por nombre common_keys.
+- La función deberá recibir, de forma obligatoria, dos diccionarios como argumentos.
+- La función deberá retornará una tupla con todas las llaves duplicadas dentro de los diccionarios ingresados.
+
+Ejemplo:
+
+```
+>>> a = {'a': 10, 'b':20, 'c':30}
+>>> b = {'a': 10, 'c': 30, 'd': 40}
+
+>>> common_keys(a, b)
+('a', 'c')
+```
 
 ## 🤯 Javo
 
