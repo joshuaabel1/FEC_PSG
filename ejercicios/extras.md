@@ -18,6 +18,7 @@ Realizar lo mismo del ejercicio 1, pero dentro de una función, agregando en otr
 
 Ejemplo de salida:
 > ¡hola Joshua!
+
 > Tu nombre tiene 6 letras!
 
 ### Ejercicio 3
@@ -45,8 +46,11 @@ Realizar una calculadora básica (suma, resta, producto y división), implementa
 
 Ejemplo del resultado:
 > Ingrese un número: 5
+
 > Ingrese otro número: 2
+
 > Elegir operación (S/R/P/D): R
+
 > El resultado es 3
 
 
