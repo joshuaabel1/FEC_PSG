@@ -53,7 +53,7 @@ Ejemplo del resultado:
 
 > El resultado es 3
 
-# Ejercicio 7
+### Ejercicio 7
 Dado el siguiente listado de libros
 
 ```py
@@ -101,7 +101,7 @@ Deseado:
 - Sería estupendo que la enumeración que el usuario visualizará en consola comenzará desde 1 y no desde 0.
 - Si tienes tiempo y así lo deseas, sería un muy buena idea validar que el usuario solo pueda introducir números.
 
-# Ejercicio 8
+### Ejercicio 8
 Dada la siguiente clase
 
 ```py
